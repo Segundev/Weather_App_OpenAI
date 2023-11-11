@@ -12,7 +12,7 @@ if os.path.exists('api_data.json'):
     with open('api_data.json', 'r') as file:
         cached_data = json.load(file)
 else:
-    # Make an API request and save the data
+    # Make an API request and save the daa
     # Init
     newsapi = NewsApiClient(api_key='61c0091cc9db4a8eb009f0ac5c182aab')
     
